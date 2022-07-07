@@ -20,7 +20,7 @@ public class Firstdemotest {
 
 	driver.findElement(By.xpath("/html/body/div[1]/header/div/div[5]/div[2]/div/div/a[1]")).click();
 	
-    Thread.sleep(1000);
+    Thread.sleep(1000);  
     driver.close(); 
 }
 }
