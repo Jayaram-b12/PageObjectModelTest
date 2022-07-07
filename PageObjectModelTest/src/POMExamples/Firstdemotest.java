@@ -19,5 +19,8 @@ public class Firstdemotest {
 	driver.manage().window().maximize();
 
 	driver.findElement(By.xpath("/html/body/div[1]/header/div/div[5]/div[2]/div/div/a[1]")).click();
+	
+    Thread.sleep(1000);
+    driver.close();
 }
 }
